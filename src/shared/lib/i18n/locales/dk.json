@@ -1,0 +1,42 @@
+{
+  "landing": {
+    "eyebrow": "Let SPA-starter",
+    "hero": {
+      "title": "Byg små apps uden database.",
+      "subtitle": "Vite + React 19 + Clerk, med en mening om modulær struktur og en typet kontrakt hele vejen.",
+      "ctaPrimary": "Åbn dashboard",
+      "ctaSecondary": "Se på GitHub"
+    },
+    "nav": {
+      "home": "Hjem"
+    }
+  },
+  "auth": {
+    "signIn": "Log ind",
+    "signUp": "Opret konto",
+    "signOut": "Log ud"
+  },
+  "dashboard": {
+    "badge": "Logget ind",
+    "greeting": "Velkommen tilbage, {{name}}",
+    "intro": "Dette er startsiden for godkendte brugere. Herfra kan du tilslutte HTTP-endpoints, tilføje dine egne moduler eller levere landingssiden som den er.",
+    "loading": "Indlæser…",
+    "cards": {
+      "api": {
+        "title": "API-klient klar",
+        "body": "En typet axios-instans ligger i @/shared/lib/api. Peg VITE_API_BASE_URL på et hvilket som helst HTTP-endpoint."
+      },
+      "i18n": {
+        "title": "3 sprog",
+        "body": "EN, ES og DK følger med. Tilføj flere ved at lægge en ny fil i shared/lib/i18n/locales/."
+      },
+      "modules": {
+        "title": "Modulær struktur",
+        "body": "Hver feature ligger i src/modules/<name>/ med et manifest. Registret forbinder dem til sidebjælken."
+      }
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@edd_remonts/create-edd-app-vite",
+  "version": "0.1.0",
+  "description": "Bootstrap a new app from the edd-app-vite lightweight SPA starter (Vite + React 19 + Clerk, no DB).",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "create-edd-app-vite": "bin/create-edd-app-vite.mjs"
+  },
+  "files": [
+    "bin"
+  ],
+  "keywords": [
+    "create-app",
+    "scaffold",
+    "starter",
+    "vite",
+    "spa",
+    "react",
+    "clerk",
+    "edd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddremonts86/edd-app-vite.git"
+  },
+  "homepage": "https://github.com/eddremonts86/edd-app-vite#readme",
+  "bugs": {
+    "url": "https://github.com/eddremonts86/edd-app-vite/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

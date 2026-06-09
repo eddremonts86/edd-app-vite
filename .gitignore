@@ -1,0 +1,19 @@
+node_modules
+dist
+.tanstack
+.DS_Store
+*.log
+.env
+.env.local
+.env.production.local
+.env.development.local
+coverage
+playwright-report
+test-results
+.vscode
+.idea
+# pnpm creates this in some environments — the template is a single
+# package, not a workspace, so we never want it in the repo.
+pnpm-workspace.yaml
+# Files that pnpm leaves behind from interactive approve-builds flows.
+.pnpm-approve-builds-tmp

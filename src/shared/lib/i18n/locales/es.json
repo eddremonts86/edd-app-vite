@@ -1,0 +1,42 @@
+{
+  "landing": {
+    "eyebrow": "Starter SPA ligero",
+    "hero": {
+      "title": "Lanza apps pequeñas sin base de datos.",
+      "subtitle": "Vite + React 19 + Clerk, con estructura modular opinada y un contrato tipado de extremo a extremo.",
+      "ctaPrimary": "Abrir dashboard",
+      "ctaSecondary": "Ver en GitHub"
+    },
+    "nav": {
+      "home": "Inicio"
+    }
+  },
+  "auth": {
+    "signIn": "Iniciar sesión",
+    "signUp": "Crear cuenta",
+    "signOut": "Cerrar sesión"
+  },
+  "dashboard": {
+    "badge": "Sesión iniciada",
+    "greeting": "Bienvenido de nuevo, {{name}}",
+    "intro": "Esta es la página principal para usuarios autenticados. Desde aquí puedes conectar endpoints HTTP, añadir tus propios módulos o lanzar la landing tal cual.",
+    "loading": "Cargando…",
+    "cards": {
+      "api": {
+        "title": "Cliente API listo",
+        "body": "Una instancia de axios tipada vive en @/shared/lib/api. Apunta VITE_API_BASE_URL a cualquier endpoint HTTP."
+      },
+      "i18n": {
+        "title": "3 idiomas",
+        "body": "EN, ES y DK vienen con el template. Añade más soltando un archivo nuevo en shared/lib/i18n/locales/."
+      },
+      "modules": {
+        "title": "Estructura modular",
+        "body": "Cada feature vive en src/modules/<name>/ con su manifest. El registry los conecta con la barra lateral."
+      }
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard"
+  }
+}

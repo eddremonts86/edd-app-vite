@@ -1,0 +1,8 @@
+dist
+node_modules
+.tanstack
+.agents
+.github
+pnpm-lock.yaml
+*.min.*
+coverage
